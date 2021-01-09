@@ -1,0 +1,76 @@
+%experiment/MaFMethodology/R/hhcovshhcmoea/KruskalTestIGD.tex
+\documentclass[]{article}
+\usepackage{colortbl}
+\usepackage[table*]{xcolor}
+\usepackage{multirow}
+\usepackage{fixltx2e}
+\usepackage{stfloats}
+\usepackage{psfrag}
+\usepackage[]{threeparttable}
+\usepackage{multicol}
+\usepackage{lscape}
+\xdefinecolor{gray95}{gray}{0.75}
+\begin{document}
+\begin{table}
+\caption{IGD. Mean and standard deviation}
+\label{table:mean.IGD}
+\centering
+\begin{footnotesize}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Obj. & problem  & HHCOR2LPNORM & HHcMOEA \\ \hline
+
+\multirow{15}{*}{5} & MaF01 & \cellcolor{gray95} {\bf 1.16E-3(1.29E-5)} & 1.44E-3(5.23E-5)\\
+ & MaF02 & \cellcolor{gray95} {\bf 6.45E-3(7.95E-5)} & 7.49E-3(2.36E-4)\\
+ & MaF03 & 1.39E2(2.04E2) & \cellcolor{gray95} {\bf 1.47E-3(2.25E-4)}\\
+ & MaF04 & \cellcolor{gray95} {\bf 1.79E-2(2.22E-4)} & 2.82E-2(1.72E-2)\\
+ & MaF05 & \cellcolor{gray95} {\bf 1.86E-2(4.22E-4)} & 3E-2(3.94E-3)\\
+ & MaF06 & \cellcolor{gray95} {\bf 3.86E-5(1.27E-6)} & 7.77E-5(2.59E-5)\\
+ & MaF07 & \cellcolor{gray95} {\bf 2.21E-3(4.37E-5)} & 2.78E-3(1.63E-4)\\
+ & MaF08 & \cellcolor{gray95} {\bf 1E-3(1.08E-5)} & 1.46E-3(7.9E-5)\\
+ & MaF09 & \cellcolor{gray95} {\bf 1.02E-3(5.07E-5)} & 1.53E-3(1.27E-4)\\
+ & MaF10 & \cellcolor{gray95} {\bf 8.36E-3(7.79E-4)} & \cellcolor{gray95} 1.03E-2(3.59E-3)\\
+ & MaF11 & \cellcolor{gray95} {\bf 8.86E-3(2.16E-3)} & 9.38E-3(1.12E-3)\\
+ & MaF12 & \cellcolor{gray95} {\bf 9.93E-3(5.66E-5)} & 1.24E-2(8.37E-4)\\
+ & MaF13 & \cellcolor{gray95} {\bf 8.54E-4(8.16E-5)} & 1.21E-3(1.34E-4)\\
+ & MaF14 & \cellcolor{gray95} {\bf 6.07E-3(1.38E-3)} & \cellcolor{gray95} 6.32E-3(8.24E-4)\\
+ & MaF15 & 8.78E-3(1.2E-3) & \cellcolor{gray95} {\bf 4.88E-3(2.36E-3)}\\
+\hline
+
+\multirow{15}{*}{10} & MaF01 & \cellcolor{gray95} {\bf 2.76E-3(1.85E-5)} & 3.42E-3(1.02E-4)\\
+ & MaF02 & \cellcolor{gray95} {\bf 2.03E-3(2.95E-5)} & 2.15E-3(7.92E-5)\\
+ & MaF03 & 1.73E3(1.91E3) & \cellcolor{gray95} {\bf 1.92E-3(2.59E-4)}\\
+ & MaF04 & \cellcolor{gray95} {\bf 7.08E-1(2.26E-2)} & 1.37E0(1.55E0)\\
+ & MaF05 & \cellcolor{gray95} {\bf 1.01E0(7.64E-2)} & 1.39E0(2.26E-1)\\
+ & MaF06 & 1.76E-2(1.41E-2) & \cellcolor{gray95} {\bf 2.83E-3(3.03E-3)}\\
+ & MaF07 & \cellcolor{gray95} {\bf 6.66E-3(1.51E-4)} & 8.17E-3(1.33E-3)\\
+ & MaF08 & \cellcolor{gray95} {\bf 1.38E-3(1.05E-5)} & 1.92E-3(5.38E-5)\\
+ & MaF09 & 1.79E-2(5.47E-3) & \cellcolor{gray95} {\bf 4.85E-3(6.34E-4)}\\
+ & MaF10 & \cellcolor{gray95} {\bf 1.9E-2(1.8E-3)} & \cellcolor{gray95} 2.36E-2(8.15E-3)\\
+ & MaF11 & 2.7E-2(3.05E-3) & \cellcolor{gray95} {\bf 2.5E-2(1.57E-2)}\\
+ & MaF12 & \cellcolor{gray95} {\bf 5.22E-2(9.21E-4)} & 5.68E-2(4.08E-3)\\
+ & MaF13 & \cellcolor{gray95} {\bf 1.07E-3(9.01E-5)} & 2.03E-3(2.13E-4)\\
+ & MaF14 & \cellcolor{gray95} {\bf 1.06E-2(2.48E-3)} & \cellcolor{gray95} 2.65E-2(6.31E-2)\\
+ & MaF15 & 5.51E-2(4.57E-2) & \cellcolor{gray95} {\bf 2.37E-2(2.52E-2)}\\
+\hline
+
+\multirow{15}{*}{15} & MaF01 & \cellcolor{gray95} {\bf 3.58E-3(5.06E-5)} & 4.83E-3(2.8E-4)\\
+ & MaF02 & \cellcolor{gray95} {\bf 2.34E-3(3.08E-5)} & 3.12E-3(2.09E-4)\\
+ & MaF03 & 1.06E-1(1.97E-1) & \cellcolor{gray95} {\bf 2.3E-3(1.31E-4)}\\
+ & MaF04 & \cellcolor{gray95} {\bf 2.27E1(1.6E0)} & 1.66E2(2.89E2)\\
+ & MaF05 & \cellcolor{gray95} {\bf 2.91E1(2.04E0)} & 4.87E1(7.3E0)\\
+ & MaF06 & 8.63E-3(7.84E-3) & \cellcolor{gray95} {\bf 4.27E-4(2.88E-4)}\\
+ & MaF07 & \cellcolor{gray95} {\bf 1.18E-2(1.47E-4)} & 1.43E-2(4.4E-4)\\
+ & MaF08 & 2.11E0(5.49E0) & \cellcolor{gray95} {\bf 2.24E-3(4.18E-5)}\\
+ & MaF09 & \cellcolor{gray95} {\bf 1.96E-3(9.97E-5)} & 4.94E-3(1.47E-3)\\
+ & MaF10 & \cellcolor{gray95} {\bf 2.48E-2(9.67E-4)} & 3.17E-2(5.74E-3)\\
+ & MaF11 & 6.16E-2(1.81E-2) & \cellcolor{gray95} {\bf 4.17E-2(2.03E-2)}\\
+ & MaF12 & \cellcolor{gray95} {\bf 1.03E-1(1.44E-3)} & 1.24E-1(4.09E-3)\\
+ & MaF13 & \cellcolor{gray95} {\bf 1.35E-3(1.13E-4)} & 2.19E-3(2.23E-4)\\
+ & MaF14 & 1.35E-2(1.97E-3) & \cellcolor{gray95} {\bf 1.11E-2(1.97E-3)}\\
+ & MaF15 & 6.47E-2(5.85E-2) & \cellcolor{gray95} {\bf 2.95E-2(2.19E-2)}\\
+\hline
+\end{tabular}
+\end{footnotesize}
+\end{table}
+\end{document}
